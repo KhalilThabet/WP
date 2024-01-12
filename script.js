@@ -11,12 +11,23 @@ else{
 }
 function appearVideo(PATH,element1,element2){
     var block_to_insert ;
-        var container_block ;
-        
-        block_to_insert = document.createElement( 'div' );
-        block_to_insert.innerHTML = "<video style=''width='320' height='240' autoplay muted><source src='"+PATH+"' type='video/mp4' ></video>" ;
-        
-        container_block = document.getElementById(element1);
-        container_block.appendChild( block_to_insert );
-        document.getElementById(element2).remove();
+    var container_block ;
+    
+    block_to_insert = document.createElement( 'div' );
+    block_to_insert.innerHTML = "<video style=''width='320' height='240' autoplay muted><source src='"+PATH+"' type='video/mp4' ></video>" ;
+    
+    container_block = document.getElementById(element1);
+    container_block.appendChild( block_to_insert );
+    document.getElementById(element2).remove();
+}
+function appearImage(PATH,element1,element2) {
+    var block_to_insert ;
+    var container_block ;
+    
+    block_to_insert = document.createElement( 'div' );
+    block_to_insert.innerHTML = "<img src="+PATH+" alt='Project Setup Image' />" ;
+    
+    container_block = document.getElementById(element1);
+    container_block.appendChild( block_to_insert );
+    document.getElementById(element2).remove();
 }

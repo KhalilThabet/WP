@@ -2,14 +2,14 @@
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <html lang = "en">
     <head>
-        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CXS7RRQDS"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CXS7RRQDS"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-7CXS7RRQDS');
-        </script> -->
+        </script>
         <title>Khalil Thabet</title>
         <meta charset = "UTF-8">
         <link href="style.css" rel = "stylesheet">
@@ -29,7 +29,7 @@
             <!-- Navigation Bar  -->
             <ul class = "navbar" id = "topnav">
                 <li style="float:left;" class="ctn1"><a href = "https://khalilthabet.github.io/">BLOG</a></li>
-                <li class="ctn"><a href = "https://calendar.app.google/dUDw4jQWhbzBtMmC8" target="_blank">BOOK A MEETING</a></li>
+                <li class="ctn"><a href = "" target="">BOOK A MEETING</a></li>
                 <li><a href = "#contactme">CONTACT</a></li>
                 <li><a href = "#achievements">ACHIEVEMENTS</a></li>
                 <li><a href = "#projects">PROJECTS</a></li>
@@ -39,7 +39,7 @@
                 <li><a href = "#aboutme">ABOUT</a></li>
             </ul>
             <ul class = "navbar" id = "sidenav">
-                <li style="float:left;"><a href = "resume.html">RESUME</a></li>
+                <li style="float:left;" class="ctn1"><a href = "https://khalilthabet.github.io/">BLOG</a></li>
                 <div class="dropdown">
                     <button class="dropbtn"><i class="fas fa-angle-double-down"></i></button>
                     <div class="dropdown-content">
@@ -62,9 +62,10 @@
     </br>
         <div>
             <div class = "about">
+                <a id = "aboutme"></a>
                 <div class = "presentation">
                     <div id="wrap" class="img-wrap">
-                        <img src = "source/face2.png">
+                        <img class="image" src = "source/face2.png">
                     </div>
                     <div class="description">
                         <div class="name">Khalil Thabet</div>
@@ -110,7 +111,7 @@
                     <h1>EDUCATION</h1>
                 </div>
                 <div class="content">
-                    <h1>Computer Engineering Degree</h1>
+                    <h1>Computer Science Engineering Degree</h1>
                     <a href = "https://ensi.rnu.tn/" target = "_blank">National School Of Computer Science - University Of Manouba</a>
                     <h2>2020 - 2023</h2>
                 </div>
@@ -129,33 +130,34 @@
             <div class = "content">
                 <h1>Research Intern</h1>
                 <a href = "" target = "_blank">University Manitoba</a>
-                <h2>July 2023 - October 2023</h2>
-                <h2>
-                </h2>
+                <h3>July 2023 - October 2023</h3>
+                <h3>
+                    Managed a 3D image reconstruction project in varied settings, using Monte Carlo methods and Bayesian Analysis for precise outcomes in complex environments.
+                </h3>
             </div>
             <div class = "content">
                 <h1>Research Intern</h1>
                 <a href = "" target = "_blank">Instadeep Ltd</a>
-                <h2>February 2023 - June 2023</h2>
+                <h3>February 2023 - June 2023</h3>
                 <h3>
-                    Attempted a novel approach for Routing in PCB Design using Deep Reinforcement Learning and Global and Detailed Routing Approach.
+                    Attempted a novel approach for Routing in PCB Design using Deep Reinforcement Learning.
                 </h3>
             </div>
             
             <div class = "content">
                 <h1>Research Intern</h1>
                 <a href = "" target = "_blank">ENSI</a>
-                <h2>June 2022 - August 2022</h2>
+                <h3>June 2022 - August 2022</h3>
                 <h3>
-                    Accelerating a neural network architecture on GPU using C/++ and CUDA.
+                    Accelerated a neural network architecture on GPU using C/++ and CUDA.
                 </h3>
             </div>
             <div class = "content">
                 <h1>Research Intern</h1>
                 <a href = "" target = "_blank">ENSI</a>
-                <h2>February 2020 - May 2020</h2>
+                <h3>February 2020 - May 2020</h3>
                 <h3>
-                    Research on Spike Neural Networks Architectures.
+                    Research on Spike Neural Networks Architectures for facial recognition.
                 </h3>
             </div>
 
@@ -167,7 +169,7 @@
             <div class = "content">
                 <h1>President</h1>
                 <a href = "http://www.ensi-junior-entreprise.net/" target = "_blank">ENSI Junior Entreprise Association</a>
-                <h2>August 2021 - October 2022</h2>
+                <h3>August 2021 - October 2022</h3>
                 <h3>
                     <ul>
                         <li>Developed Strategies, budgets and deployment plans.</li>
@@ -178,7 +180,7 @@
             <div class = "content">
                 <h1>Junior Entrepreneur Ambassador</h1>
                 <a href = "https://studentambassadors.microsoft.com/" target = "_blank">Junior Entreprises Of Tunisia</a>
-                <h2>January 2021 - March 2021</h2>
+                <h3>January 2021 - March 2021</h3>
                 <h3>
                     <ul>
                         <li>Strategic planning and organization of the event</li>
@@ -191,7 +193,7 @@
             <div class = "content">
                 <h1>Active Member</h1>
                 <a href = "" target = "_blank">Association of Robotics Of ENSI</a>
-                <h2>November 2020 - August 2021</h2>
+                <h3>November 2020 - August 2021</h3>
                 <h3>
                     <ul>
                         <li>Preparing Specification book for every robot project.</li>
@@ -220,38 +222,21 @@
                     <tbody>
                     <tr>
                         <th scope="row" style="text-align:center">Development</th>
-                        <td>Bash, GStreamer,ROS,
-                            Flask, VHDL, STM32,
+                        <td>Bash, GStreamer, VHDL, STM32,
                             FPGA, OpenMP</td>
-                        <td>Android, Java, Arduino,
-                            CUDA, C++,C,
-                            Javascript,ReactJs</td>
-                        <td>Assembly,
-                            QT, Python</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" style="text-align:center">Network</th>
-                        <td></td>
-                        <td>PacketTracer,
-                            Wireshark
-                            </td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row" style="text-align:center">Modeling</th>
-                        <td>Method B, BPMN</td>
-                        <td>UML</td>
-                        <td></td>
+                        <td>Java, ESP32,
+                            QT, Javascript, ReactJs</td>
+                        <td>C++, CUDA, Python</td>
                     </tr>
                     <tr>
                         <th scope="row" style="text-align:center">Tools</th>
                         <td></td>
-                        <td>Tensorflow, OpenCV, Pytorch</td>
-                        <td></td>
+                        <td>Tensorflow, OpenCV</td>
+                        <td>Pytorch</td>
                     </tr>
                     <tr>
                         <th scope="row"style="text-align:center">Methodology</th>
-                        <td>2TUP, SCRUM</td>
+                        <td>SCRUM</td>
                         <td>Waterfall, V-Shape Model</td>
                         <td></td>
                     </tr>
@@ -305,11 +290,6 @@
                 </h3>
             </div>
             <div class = "content">
-                <h1>6730 th KickStart 2020 - Round G</h1>
-                <a href = "https://codingcompetitions.withgoogle.com/" target = "_blank">Google's Coding Competitions</a>
-                <h2>March 2020</h2>
-            </div> 
-            <div class = "content">
                 <h1>6700th - MAD POD RACING Challenge - Gold League </h1>
                 <a href = "https://www.codingame.com/" target = "_blank">CodinGame's Competitions</a>
                 <h2>March 2021</h2>
@@ -325,36 +305,42 @@
             <div class = "title">
                 <h1>PROJECTS</h1>
             </div>
-            <div class = "content">
+            <!-- <div class = "content">
                 <h1>Drone Simulation using neural network Genetic algorithms<a href = "https://github.com/KhalilThabet/Fighter-Simulation" target = "_blank"><i class="fab fa-github-alt"></i></a></h1>                <h2>The project aims to develop an AI model that can control a drone's movements inside a 2D-
                     environment.
                     <ul><li>Designed and Implemented a simulator for a 2D-QuadCopter for moving to desired target
                     using <b>Pygame</b></li>
                     <li>Established an AI Agent for controling the copter based on a feed forward neural network</li>
                     <li>Integrated Genetic Algorithm Approach for optimizing the neural Network using <b>NEAT-Python</b></li></ul></h2>
+            </div> -->
+            <div class = "content">
+                <h1>STM32 with a NEO-6M antenna<a href = "https://github.com/KhalilThabet/STM32-GPS" target = "_blank"><i class="fab fa-github-alt"></i></a>
+                <button id="GPSButton" onClick="appearImage('./source/gps.png','GPSButton','displayGPS')">Demo</button></h1>
+                <div id="displayGPS"></div>
+                <h3>
+                    Small School Lab to develop a microcontroller-based GPS tracker using stm32f4 to process and analyze the data coming from the satellite using NEO-6M antenna.
+                </h3>
             </div>
             <div class = "content">
-                <h1>Development of a microcontroller-based GPS module with a NEO-6M antenna</h1>
-            </div>
-            <div class = "content">
-                <h1>Design and implementation of a floating-point computing unit on FPGA</h1>
-            </div>
-            <div class = "content">
-                <h1>Implemented a two-bit adder using the Qsys tool, running it on a NIOS II processor</h1>
+                <h1>FPU on FPGA<a href = "https://github.com/KhalilThabet/Floating-Point-Arithmetic-FPGA" target = "_blank"><i class="fab fa-github-alt"></i></a>
+                    <button id="FPUButton" disabled>Demo</button></h1>
+                    <h3>
+                        Small School Lab to develop a Floating point arithmetic computing unit on FPGA. <br>(For more details check the report on my github)
+                    </h3>
             </div>
             <div class = "content">
                 <h1>Algorithm visualizer<a href = "https://github.com/KhalilThabet/AlgoVisualizer" target = "_blank"><i class="fab fa-github-alt"></i></a>
                 <button id="videoAlgoVizButton" onClick="appearVideo('./source/AlgoVisualizer.mp4','displayAlgoViz','videoAlgoVizButton')">Demo</button></h1> 
-                <h2>The project aims to allow the user to create their own obstables or mazes and then run different
+                <h3>The project aims to allow the user to create their own obstables or mazes and then run different
                     pathfinding algorithms on it.
                     <ul><li>Developing Pathfinder Visual based on the <b>A* Algorithm</b> using ReactJS to visualize the
-                        process of the algorithm.</li></ul></h2>
+                        process of the algorithm.</li></ul></h3>
                 <div id="displayAlgoViz"></div>
             </div>
             <div class = "content">
                 <h1>Web Application for Management Of Driving School    <a href = "https://github.com/KhalilThabet/GAuto" target = "_blank"><i class="fab fa-github-alt"></i></a>
                 <button id="videoGautoButton" onClick="appearVideo('./source/Gauto.mp4','displayApp','videoGautoButton')">Demo</button></h1>
-                <h2>The project aims to design and develop a tool to help driving school businesses to manage and
+                <h3>The project aims to design and develop a tool to help driving school businesses to manage and
                 record their resource activities through a user interface, including HR, accounting and financial
                 management.</br>
                 My Responsibilities :
@@ -362,25 +348,25 @@
                 <li>Involved in the engineering of the databases needed for the application using
                 <b>MongoDB</b></li>
                 <li>Designed all the methods and REST APIs using <b>ExpressJS</b></li>
-                <li>Worked in a team across the software development cycle to satisfy the requirements</li></ul></h2>
+                <li>Worked in a team across the software development cycle to satisfy the requirements</li></ul></h3>
                 <div id="displayApp"></div>
             </div>
             <div class = "content">
                 <h1>Card Game Project    <a href = "https://github.com/KhalilThabet/BeloteGUIGame" target = "_blank"><i class="fab fa-github-alt"></i></a>
                     <button id="videoBeloteButton" onClick="appearVideo('./source/Belote.mp4','displayBelote','videoBeloteButton')">Demo</button></h1>
-                <h2><ul><li>Learned the fundamental concepts of oriented programming using <b>C++</b> and the develop-
+                <h3><ul><li>Learned the fundamental concepts of oriented programming using <b>C++</b> and the develop-
                     ment of software UI with <b>QT framework.</b></li>
                     <li>Development of a modular and resilient game engine based on test-driven development ac-
                     cording to the waterfall methodology</li>
-                    <li>Developed strong knowledge in multithreading with QT and c++</li></ul></h2>
+                    <li>Developed strong knowledge in multithreading with QT and c++</li></ul></h3>
                 <div id="displayBelote"></div>
             </div> 
             <div class = "content">
                 <h1>Medical Practice   <a href = "https://github.com/KhalilThabet/Medical-Practice" target = "_blank"><i class="fab fa-github-alt"></i></a> 
                     <button id="medicalButton" onClick="appearVideo('./source/Medical.mp4','displayMedical','medicalButton')">Demo</button></h1></h1>
-                <h2><ul><li>Built a CLI to manage and monitor resources in a medical practice using <b>Python</b> to interact
+                <h3><ul><li>Built a CLI to manage and monitor resources in a medical practice using <b>Python</b> to interact
                     with the operating system.</li>
-                    <li>Conducted data verification and validation on inputs entered by the user.</li></ul></h2>
+                    <li>Conducted data verification and validation on inputs entered by the user.</li></ul></h3>
                 <div id="displayMedical"></div>
             </div> 
         </div>
@@ -399,7 +385,8 @@
         <div >
             <a id = "BookMeeting"></a>
             <div class="containBtn">
-                <a href="https://calendar.app.google/dUDw4jQWhbzBtMmC8" target="_blank"><button class="btn" onClick="">Book a Meeting</button></a>
+                <!-- <a href="https://calendar.app.google/dUDw4jQWhbzBtMmC8" target="_blank"></a> -->
+                <button class="btn" disabled>Book a Meeting</button>
             </div> 
         </div>
         <button class = "top"><a href = "#up"><i class="fas fa-arrow-up"></i></a></button>

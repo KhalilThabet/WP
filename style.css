@@ -171,7 +171,7 @@ table {
     --from: 30deg;
     --distance: 46%;
   }
-img {
+.image {
     border-radius: 999px;
     width: calc(100vw - 80px);
     height: auto;
@@ -185,6 +185,9 @@ img {
     var(--color2) var(--distance),
     transparent var(--distance)
     );
+}
+img{
+    max-width: 50%;
 }
 .description{
     margin: 0 15vw 0 -10vw;
